@@ -4,7 +4,6 @@ import {
   TextInput,
   Text,
   View,
-  Button,
   ScrollView,
   Linking,
   TouchableOpacity,
@@ -47,7 +46,7 @@ export default function App() {
             <View style={styles.searchWapper}>
               <TextInput
                 style={styles.searchTextInput}
-                placeholder="Search to find what yu want!"
+                placeholder="Search to find what you want!"
                 clearButtonMode={"always"}
                 autoCapitalize="none"
                 clearTextOnFocus={true}
